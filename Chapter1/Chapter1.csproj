@@ -46,9 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Listing1_3.cs" />
-    <Compile Include="Listing1_2.cs" />
-    <Compile Include="Listing1_1.cs" />
+    <Compile Include="Objective1\Listing1_3.cs" />
+    <Compile Include="Objective1\Listing1_2.cs" />
+    <Compile Include="Objective1\Listing1_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
