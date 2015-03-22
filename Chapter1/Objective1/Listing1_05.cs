@@ -5,7 +5,7 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_5
+    public class Listing1_05
     {
         [ThreadStatic]
         public static int _field;

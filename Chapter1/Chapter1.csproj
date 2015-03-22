@@ -46,12 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Objective1\Listing1_6.cs" />
-    <Compile Include="Objective1\Listing1_5.cs" />
-    <Compile Include="Objective1\Listing1_4.cs" />
-    <Compile Include="Objective1\Listing1_3.cs" />
-    <Compile Include="Objective1\Listing1_2.cs" />
-    <Compile Include="Objective1\Listing1_1.cs" />
+    <Compile Include="Objective1\Listing1_12.cs" />
+    <Compile Include="Objective1\Listing1_11.cs" />
+    <Compile Include="Objective1\Listing1_10.cs" />
+    <Compile Include="Objective1\Listing1_09.cs" />
+    <Compile Include="Objective1\Listing1_08.cs" />
+    <Compile Include="Objective1\Listing1_07.cs" />
+    <Compile Include="Objective1\Listing1_06.cs" />
+    <Compile Include="Objective1\Listing1_05.cs" />
+    <Compile Include="Objective1\Listing1_04.cs" />
+    <Compile Include="Objective1\Listing1_03.cs" />
+    <Compile Include="Objective1\Listing1_02.cs" />
+    <Compile Include="Objective1\Listing1_01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

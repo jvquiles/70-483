@@ -5,7 +5,7 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_3
+    public class Listing1_03
     {
         static void ThreadMethod(object o)
         {

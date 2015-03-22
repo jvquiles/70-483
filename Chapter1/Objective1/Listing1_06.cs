@@ -5,7 +5,7 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_6
+    public class Listing1_06
     {
         public static ThreadLocal<int> _field =
             new ThreadLocal<int>(() =>
