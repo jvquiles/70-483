@@ -6,7 +6,7 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_12
+    public class Listing1_13
     {
         [TestMethod]
         public void Main() 
@@ -14,13 +14,12 @@
             Task<int[]> parent = Task.Run(() =>
             {
                 var results = new int[3];
-                new Task(() => results[0] = 0,
-                    TaskCreationOptions.AttachedToParent).Start();
-                new Task(() => results[1] = 1,
-                    TaskCreationOptions.AttachedToParent).Start();
-                new Task(() => results[2] = 2,
-                    TaskCreationOptions.AttachedToParent).Start();
+                TaskFactory tf = new TaskFactory(TaskCreationOptions.AttachedToParent,
+                    TaskContinuationOptions.ExecuteSynchronously);
 
+                tf.StartNew(() => results[0] = 0);
+                tf.StartNew(() => results[1] = 1);
+                tf.StartNew(() => results[2] = 2);
                 return results;
             });
 
