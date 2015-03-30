@@ -47,6 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objective1\Listing1_27.cs" />
+    <Compile Include="Objective1\Listing1_26.cs" />
+    <Compile Include="Objective1\Listing1_25.cs" />
+    <Compile Include="Objective1\Listing1_24.cs" />
+    <Compile Include="Objective1\Listing1_23.cs" />
+    <Compile Include="Objective1\Listing1_22.cs" />
+    <Compile Include="Objective1\Listing1_20.cs" />
+    <Compile Include="Objective1\Listing1_19.cs" />
     <Compile Include="Objective1\Listing1_18.cs" />
     <Compile Include="Objective1\Listing1_17.cs" />
     <Compile Include="Objective1\Listing1_16.cs" />
