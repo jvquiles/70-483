@@ -24,7 +24,7 @@
             }
         }
 
-        public static bool IsEven(int i) 
+        public static bool IsEven(int i)
         {
             if (i % 10 == 0) throw new ArgumentException("i");
 
