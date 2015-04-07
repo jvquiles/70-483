@@ -6,17 +6,23 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_09
+    public class Listing_10
     {
         [TestMethod]
         public void Main() 
         {
-            Task<int> t = Task.Run(() => 
+            Task<int> t = Task.Run(() =>
             {
                 return 42;
+            }).ContinueWith((i) => 
+            {
+                return i.Result * 2;
             });
 
             Console.WriteLine(t.Result);
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

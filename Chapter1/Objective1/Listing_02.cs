@@ -5,23 +5,26 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_03
+    public class Listing_02
     {
-        static void ThreadMethod(object o)
+        static void ThreadMethod()
         {
-            for (int i = 0; i < (int)o; i++) 
+            for (int i = 0; i < 20; i++) 
             {
                 Console.WriteLine("ThreadProc: {0}", i);
-                Thread.Sleep(0);
+                Thread.Sleep(1000);
             }
         }
 
         [TestMethod]
         public void Main() 
         {
-            Thread t = new Thread(new ParameterizedThreadStart(ThreadMethod));
-            t.Start(5);
-            t.Join();
+            Thread t = new Thread(new ThreadStart(ThreadMethod));
+            t.IsBackground = true; 
+            t.Start();
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

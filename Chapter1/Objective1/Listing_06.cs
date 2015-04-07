@@ -5,7 +5,7 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_06
+    public class Listing_06
     {
         public static ThreadLocal<int> _field =
             new ThreadLocal<int>(() =>
@@ -32,7 +32,8 @@
                 }
             }).Start();
 
-            Thread.Sleep(10000);
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

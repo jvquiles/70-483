@@ -5,7 +5,7 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_04
+    public class Listing_04
     {
         static void ThreadMethod(object o)
         {
@@ -32,12 +32,13 @@
 
             t.Start();
             Console.WriteLine("Press any key to exit.");
-            //Console.ReadKey();
-
-            Thread.Sleep(10000);
+            Console.ReadKey();
 
             stopped = true;
             t.Join();
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

@@ -6,13 +6,16 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_18
+    public class Listing_18
     {
         [TestMethod]
         public void Main() 
         {
             string result = DownloadContent().Result;
             Console.WriteLine(result);
+
+            // Wait until finish
+            Console.ReadLine();
         }
 
         public static async Task<string> DownloadContent() 

@@ -2,20 +2,19 @@
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
-    using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_15
+    public class Listing_14
     {
         [TestMethod]
         public void Main() 
         {
-            Task<int>[] tasks = new Task<int>[3];
+            Task[] tasks = new Task[3];
             tasks[0] = Task.Run(() => 
             {
-                Thread.Sleep(2000);
+                Thread.Sleep(1000);
                 Console.WriteLine("1");
                 return 1;
             });
@@ -27,22 +26,15 @@
             });
             tasks[2] = Task.Run(() =>
             {
-                Thread.Sleep(3000);
+                Thread.Sleep(1000);
                 Console.WriteLine("3");
                 return 3;
             });
 
-            while(tasks.Length > 0)
-            {
-                int i = Task.WaitAny(tasks);
-                Task<int> completedTask = tasks[i];
+            Task.WaitAll(tasks);
 
-                Console.WriteLine(completedTask.Result);
-
-                var temp = tasks.ToList();
-                temp.RemoveAt(i);
-                tasks = temp.ToArray();
-            }
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

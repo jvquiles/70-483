@@ -3,23 +3,20 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
     using System.Threading;
-    using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_08
+    public class Listing_07
     {
         [TestMethod]
         public void Main() 
         {
-            Task t = Task.Run(() => 
+            ThreadPool.QueueUserWorkItem((s) => 
             {
-                for (int x = 0; x  < 100; x++) 
-                {
-                    Console.WriteLine("*");
-                }
+                Console.WriteLine("Working on a thread from threadpool.");
             });
 
-            Thread.Sleep(10000);
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

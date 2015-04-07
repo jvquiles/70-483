@@ -6,7 +6,7 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_13
+    public class Listing_13
     {
         [TestMethod]
         public void Main() 
@@ -32,6 +32,9 @@
             });
 
             finalTask.Wait();
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

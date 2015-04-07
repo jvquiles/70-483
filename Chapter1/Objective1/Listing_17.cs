@@ -7,7 +7,7 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_17
+    public class Listing_17
     {
         [TestMethod]
         public void Main() 
@@ -17,10 +17,14 @@
                 if (i == 500) 
                 {
                     Console.WriteLine("Breaking loop");
+                    loopState.Break();
                 }
 
                 return;
             });
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

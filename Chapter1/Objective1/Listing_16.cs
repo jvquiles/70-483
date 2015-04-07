@@ -7,7 +7,7 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_16
+    public class Listing_16
     {
         [TestMethod]
         public void Main() 
@@ -22,6 +22,9 @@
             {
                 Thread.Sleep(1000);
             });
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

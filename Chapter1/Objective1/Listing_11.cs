@@ -6,7 +6,7 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_11
+    public class Listing_11
     {
         [TestMethod]
         public void Main() 
@@ -32,6 +32,9 @@
             }, TaskContinuationOptions.OnlyOnRanToCompletion);
 
             completedTask.Wait();
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

@@ -5,14 +5,14 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_01
+    public class Listing_01
     {
         static void ThreadMethod()
         {
             for (int i = 0; i < 20; i++) 
             {
                 Console.WriteLine("ThreadProc: {0}", i);
-                Thread.Sleep(1);
+                Thread.Sleep(0);
             }
         }
 
@@ -25,10 +25,13 @@
             for (int i = 0; i < 20; i++)
             {
                 Console.WriteLine("Main thread: Do some work.");
-                Thread.Sleep(1);
+                Thread.Sleep(0);
             }
 
             t.Join();
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

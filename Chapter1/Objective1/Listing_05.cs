@@ -5,7 +5,7 @@
     using System.Threading;
 
     [TestClass]
-    public class Listing1_05
+    public class Listing_05
     {
         [ThreadStatic]
         public static int _field;
@@ -30,8 +30,9 @@
                     Console.WriteLine("Thread B: {0}", _field);
                 }
             }).Start();
-
-            Thread.Sleep(10000);
+            
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }
