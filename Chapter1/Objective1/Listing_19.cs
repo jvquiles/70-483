@@ -7,21 +7,20 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_19
+    public class Listing_19
     {
         [TestMethod]
         public void Main() 
         {
             Stopwatch st = new Stopwatch();
-            Console.WriteLine("Start SleepAsyncA");
             st.Start();
             this.SleepAsyncA(1000);
-            Console.WriteLine("End SleepAsyncA " + st.ElapsedMilliseconds.ToString());
             
-            Console.WriteLine("Start SleepAsyncB");
             st.Restart();
             this.SleepAsyncB(1000);
-            Console.WriteLine("End SleepAsyncB " + st.ElapsedMilliseconds.ToString());
+
+            // Wait until finish
+            Console.ReadLine();
         }
 
         public Task SleepAsyncA(int millisecondsTimeout) 

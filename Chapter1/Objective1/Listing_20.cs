@@ -5,15 +5,17 @@
     using System.Net.Http;
     using System.Threading;
     using System.Threading.Tasks;
-    using System.Windows;
 
     [TestClass]
-    public class Listing1_20
+    public class Listing_20
     {
         [TestMethod]
         public void Main() 
         {
             this.Button_Click();
+
+            // Wait until finish
+            Console.ReadLine();
         }
 
         private async void Button_Click()
@@ -24,7 +26,7 @@
                 .GetStringAsync("http://microsoft.com")
                     .ConfigureAwait(false);
 
-            string output = content;
+            Console.WriteLine(content);
         }
     }
 }
