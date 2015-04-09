@@ -9,7 +9,7 @@
     using System.Windows;
 
     [TestClass]
-    public class Listing1_23
+    public class Listing_23
     {
         [TestMethod]
         public void Main() 
@@ -23,6 +23,9 @@
             {
                 Console.WriteLine(i);
             }
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

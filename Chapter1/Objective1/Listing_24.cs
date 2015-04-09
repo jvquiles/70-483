@@ -9,15 +9,23 @@
     using System.Windows;
 
     [TestClass]
-    public class Listing1_22
+    public class Listing_24
     {
         [TestMethod]
         public void Main() 
         {
-            var numbers = Enumerable.Range(0, 100000000);
-            var paralelelResult = numbers.AsParallel()
+            var numbers = Enumerable.Range(0, 10);
+            var paralelelResult = numbers.AsParallel().AsOrdered()
                 .Where(i => i % 2 == 0)
                 .ToArray();
+
+            foreach(int i in paralelelResult)
+            {
+                Console.WriteLine(i);
+            }
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

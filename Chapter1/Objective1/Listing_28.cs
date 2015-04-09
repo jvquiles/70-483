@@ -6,7 +6,7 @@
     using System.Threading.Tasks;
 
     [TestClass]
-    public class Listing1_28
+    public class Listing_28
     {
         [TestMethod]
         public void Main() 
@@ -14,8 +14,7 @@
             BlockingCollection<string> col = new BlockingCollection<string>();
             Task read = Task.Run(() => 
             {
-                bool seguir = true;
-                while (seguir) 
+                while (true) 
                 {
                     Console.WriteLine(col.Take());
                 }
@@ -23,13 +22,22 @@
 
             Task write = Task.Run(() => 
             {
-                bool seguir = true;
-                while (seguir) 
+                while (true) 
                 {
-                    string s = "prueba";
+                    string s = Console.ReadLine();
+                    if (string.IsNullOrEmpty(s)) 
+                    {
+                        break;
+                    }
+
                     col.Add(s);
                 }
             });
+
+            write.Wait();
+
+            // Wait until finish
+            Console.ReadLine();
         }
     }
 }

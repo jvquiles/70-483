@@ -5,7 +5,7 @@
     using System.Linq;
 
     [TestClass]
-    public class Listing1_27
+    public class Listing_27
     {
         [TestMethod]
         public void Main() 
@@ -22,6 +22,9 @@
             {
                 Console.WriteLine("There where {0} exceptions", ex.InnerExceptions.Count);
             }
+
+            // Wait until finish
+            Console.ReadLine();
         }
 
         public static bool IsEven(int i)
