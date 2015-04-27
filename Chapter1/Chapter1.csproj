@@ -80,11 +80,18 @@
     <Compile Include="Objective1\Listing_03.cs" />
     <Compile Include="Objective1\Listing_02.cs" />
     <Compile Include="Objective1\Listing_01.cs" />
+    <Compile Include="Objective2\Listing_39b.cs" />
     <Compile Include="Objective2\Listing_35.cs" />
     <Compile Include="Objective2\Listing_36.cs" />
     <Compile Include="Objective2\Listing_37.cs" />
     <Compile Include="Objective2\Listing_38.cs" />
     <Compile Include="Objective2\Listing_39.cs" />
+    <Compile Include="Objective2\Listing_40.cs" />
+    <Compile Include="Objective2\Listing_41.cs" />
+    <Compile Include="Objective2\Listing_42.cs" />
+    <Compile Include="Objective2\Listing_43.cs" />
+    <Compile Include="Objective2\Listing_44.cs" />
+    <Compile Include="Objective2\Listing_45.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
