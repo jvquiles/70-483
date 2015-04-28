@@ -92,6 +92,11 @@
     <Compile Include="Objective2\Listing_43.cs" />
     <Compile Include="Objective2\Listing_44.cs" />
     <Compile Include="Objective2\Listing_45.cs" />
+    <Compile Include="Objective3\Listing_46.cs" />
+    <Compile Include="Objective3\Listing_47.cs" />
+    <Compile Include="Objective3\Listing_48cs.cs" />
+    <Compile Include="Objective3\Listing_49.cs" />
+    <Compile Include="Objective3\Listing_50.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
