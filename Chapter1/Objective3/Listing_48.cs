@@ -4,7 +4,7 @@
     using System;
     
     [TestClass]
-    public class Listing_48cs
+    public class Listing_48
     {
         [TestMethod]
         public void Main() 

@@ -94,7 +94,7 @@
     <Compile Include="Objective2\Listing_45.cs" />
     <Compile Include="Objective3\Listing_46.cs" />
     <Compile Include="Objective3\Listing_47.cs" />
-    <Compile Include="Objective3\Listing_48cs.cs" />
+    <Compile Include="Objective3\Listing_48.cs" />
     <Compile Include="Objective3\Listing_49.cs" />
     <Compile Include="Objective3\Listing_50.cs" />
     <Compile Include="Objective3\Listing_51.cs" />
@@ -110,6 +110,17 @@
     <Compile Include="Objective3\Listing_61.cs" />
     <Compile Include="Objective3\Listing_62.cs" />
     <Compile Include="Objective3\Listing_63.cs" />
+    <Compile Include="Objective3\Listing_64.cs" />
+    <Compile Include="Objective3\Listing_65.cs" />
+    <Compile Include="Objective3\Listing_66.cs" />
+    <Compile Include="Objective3\Listing_67.cs" />
+    <Compile Include="Objective3\Listing_68.cs" />
+    <Compile Include="Objective3\Listing_69.cs" />
+    <Compile Include="Objective3\Listing_70.cs" />
+    <Compile Include="Objective3\Listing_71.cs" />
+    <Compile Include="Objective3\Listing_72.cs" />
+    <Compile Include="Objective3\Listing_73.cs" />
+    <Compile Include="Objective3\Listing_74.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
