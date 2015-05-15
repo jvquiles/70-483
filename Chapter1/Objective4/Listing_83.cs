@@ -3,19 +3,19 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
 
-    public class Pub2 
-    {
-        public event Action OnChange = delegate { };
-
-        public void Raise() 
-        {
-            OnChange();
-        }
-    }
-
     [TestClass]
     public class Listing_83
     {
+        private class Pub
+        {
+            public event Action OnChange = delegate { };
+
+            public void Raise()
+            {
+                OnChange();
+            }
+        }
+
         [TestMethod]
         public void Main()
         {
@@ -24,7 +24,7 @@
 
         public void CreateAndRaise()
         {
-            Pub2 p = new Pub2();
+            Pub p = new Pub();
             p.OnChange += () => Console.WriteLine("Event raised to mehtod 1");
             p.OnChange += () => Console.WriteLine("Event raised to mehtod 2");
             p.Raise();

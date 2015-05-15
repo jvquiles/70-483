@@ -3,22 +3,22 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
 
-    public class Pub
-    {
-        public Action OnChange { get; set; }
-
-        public void Raise()
-        {
-            if (this.OnChange != null)
-            {
-                this.OnChange();
-            }
-        }
-    }
-
     [TestClass]
     public class Listing_82
     {
+        private class Pub
+        {
+            public Action OnChange { get; set; }
+
+            public void Raise()
+            {
+                if (this.OnChange != null)
+                {
+                    this.OnChange();
+                }
+            }
+        }
+
         [TestMethod]
         public void Main() 
         {

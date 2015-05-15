@@ -130,6 +130,10 @@
     <Compile Include="Objective4\Listing_81.cs" />
     <Compile Include="Objective4\Listing_82.cs" />
     <Compile Include="Objective4\Listing_83.cs" />
+    <Compile Include="Objective4\Listing_84.cs" />
+    <Compile Include="Objective4\Listing_85.cs" />
+    <Compile Include="Objective4\Listing_86.cs" />
+    <Compile Include="Objective4\Listing_87.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
