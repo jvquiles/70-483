@@ -134,6 +134,12 @@
     <Compile Include="Objective4\Listing_85.cs" />
     <Compile Include="Objective4\Listing_86.cs" />
     <Compile Include="Objective4\Listing_87.cs" />
+    <Compile Include="Objective5\Listing_88.cs" />
+    <Compile Include="Objective5\Listing_89.cs" />
+    <Compile Include="Objective5\Listing_90.cs" />
+    <Compile Include="Objective5\Listing_91.cs" />
+    <Compile Include="Objective5\Listing_92.cs" />
+    <Compile Include="Objective5\Listing_93.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
