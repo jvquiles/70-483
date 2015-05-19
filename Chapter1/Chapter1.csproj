@@ -143,6 +143,8 @@
     <Compile Include="Objective5\Listing_94.cs" />
     <Compile Include="Objective5\Listing_95.cs" />
     <Compile Include="Objective5\Listing_96.cs" />
+    <Compile Include="Objective5\Listing_97.cs" />
+    <Compile Include="Objective5\Listing_98.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
