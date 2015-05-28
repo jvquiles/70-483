@@ -44,6 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Objective1\Listing_1.cs" />
+    <Compile Include="Objective1\Listing_2.cs" />
+    <Compile Include="Objective1\Listing_3.cs" />
+    <Compile Include="Objective1\Listing_4.cs" />
+    <Compile Include="Objective1\Listing_5.cs" />
+    <Compile Include="Objective1\Listing_6.cs" />
+    <Compile Include="Objective1\Listing_7.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
