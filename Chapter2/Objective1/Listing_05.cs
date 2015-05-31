@@ -3,9 +3,9 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
-    public class Listing_6
+    public class Listing_05
     {
-        private class Address
+        private class Customer 
         {
         }
 
@@ -13,14 +13,14 @@
         {
         }
 
-        private Distance CalculateDistanceTo(Address address)
+        private Distance CalculatorDistanceTo(Customer customer) 
         {
             Distance result = new Distance();
             return result;
         }
 
         [TestMethod]
-        public void Main()
+        public void Main() 
         {
 
         }

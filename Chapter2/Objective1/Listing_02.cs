@@ -3,7 +3,7 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
-    public class Listing_2
+    public class Listing_02
     {
         private struct Point
         {

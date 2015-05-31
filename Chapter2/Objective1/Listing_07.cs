@@ -3,7 +3,7 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
-    public class Listing_7
+    public class Listing_07
     {
         private void MyMethod(int FirstArgument, string secondArgument = "default value", bool thirdArgument = false)
         {

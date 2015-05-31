@@ -3,14 +3,15 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
-    public class Listing_4
+    public class Listing_08
     {
-        private class Calculator 
+        private void MethodWithoutAnyResturnValue() 
         {
-            public int Add(int x, int y) 
-            {
-                return x + y;
-            }
+        }
+
+        private int MethodWithReturnValue() 
+        {
+            return 42;
         }
 
         [TestMethod]
