@@ -53,6 +53,10 @@
     <Compile Include="Objective1\Listing_07.cs" />
     <Compile Include="Objective1\Listing_08.cs" />
     <Compile Include="Objective1\Listing_09.cs" />
+    <Compile Include="Objective1\Listing_11.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Objective1\Listing_12.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

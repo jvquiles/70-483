@@ -2,23 +2,24 @@
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System.Collections.Generic;
-    using System.Linq;
 
     [TestClass]
-    public class Listing_10
+    public class Listing_11
     {
-
         private class Card
         {
         }
 
-        private class Deck 
+        private class Deck
         {
-            public ICollection<Card> Cards { get; private set; }
-            
-            private Card this[int index] 
+            private int _maximumNumberOfCards;
+
+            public List<Card> Cards { get; set; }
+
+            public Deck(int maximumNumberOfCards)
             {
-                get { return Cards.ElementAt(index); }
+                this._maximumNumberOfCards = maximumNumberOfCards;
+                Cards = new List<Card>();
             }
         }
 
