@@ -60,6 +60,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Objective1\Listing_13.cs" />
+    <Compile Include="Objective1\Listing_14.cs" />
+    <Compile Include="Objective1\Listing_15.cs" />
+    <Compile Include="Objective1\Listing_16.cs" />
+    <Compile Include="Objective1\Listing_17.cs" />
+    <Compile Include="Objective1\Listing_18.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
