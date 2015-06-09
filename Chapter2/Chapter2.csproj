@@ -69,6 +69,10 @@
     <Compile Include="Objective2\Listing_19.cs" />
     <Compile Include="Objective2\Listing_20.cs" />
     <Compile Include="Objective2\Listing_21.cs" />
+    <Compile Include="Objective2\Listing_22.cs" />
+    <Compile Include="Objective2\Listing_23.cs" />
+    <Compile Include="Objective2\Listing_24_25.cs" />
+    <Compile Include="Objective2\Listing_26.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
