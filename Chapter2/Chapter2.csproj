@@ -82,8 +82,14 @@
     <Compile Include="Objective2\Listing_28.cs" />
     <Compile Include="Objective2\Listing_29.cs" />
     <Compile Include="Objective2\Listing_30.cs" />
+    <Compile Include="Objective3\Listing_31.cs" />
+    <Compile Include="Objective3\Listing_32.cs" />
+    <Compile Include="Objective3\Listing_33.cs" />
+    <Compile Include="Objective3\Listing_34.cs" />
+    <Compile Include="Objective3\Listing_35.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
