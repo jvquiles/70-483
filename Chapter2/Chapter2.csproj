@@ -82,6 +82,8 @@
     <Compile Include="Objective2\Listing_28.cs" />
     <Compile Include="Objective2\Listing_29.cs" />
     <Compile Include="Objective2\Listing_30.cs" />
+    <Compile Include="Objective3\Listing_36.cs" />
+    <Compile Include="Objective3\Listing_37.cs" />
     <Compile Include="Objective3\Listing_31.cs" />
     <Compile Include="Objective3\Listing_32.cs" />
     <Compile Include="Objective3\Listing_33.cs" />
