@@ -58,6 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objective4\Listing_42.cs" />
+    <Compile Include="Objective4\Listing_41.cs" />
     <Compile Include="Objective1\Listing_10.cs" />
     <Compile Include="Objective1\Listing_01.cs" />
     <Compile Include="Objective1\Listing_02.cs" />
