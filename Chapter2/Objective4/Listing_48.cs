@@ -24,7 +24,7 @@
 
         private class Program 
         {
-            static  void Main(string[] args)
+            static internal void Main(string[] args)
             {
                 Base b = new Base();
                 b.Execute();
@@ -36,7 +36,7 @@
         [TestMethod]
         public void Main() 
         {
-
+            Program.Main(null);
         }
     }
 }
