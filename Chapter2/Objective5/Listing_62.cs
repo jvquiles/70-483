@@ -8,11 +8,11 @@
     public class Listing_62
     {
         [Conditional("CONDITION1"), Conditional("CONDITION2")]
-        static void MyMethod() { }
+        public void MyMethod() { }
 
         [TestMethod]
         public void Main() 
-        {            
+        {
             ConditionalAttribute conditionaAttribute =
                 (ConditionalAttribute)Attribute.GetCustomAttribute(
                     typeof(Listing_62),
