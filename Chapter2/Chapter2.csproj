@@ -119,15 +119,18 @@
     <Compile Include="Objective4\Listing_55.cs" />
     <Compile Include="Objective4\Listing_56.cs" />
     <Compile Include="Objective4\Listing_57.cs" />
+    <Compile Include="Objective5\Listing_58.cs" />
+    <Compile Include="Objective5\Listing_59.cs" />
+    <Compile Include="Objective5\Listing_60.cs" />
+    <Compile Include="Objective5\Listing_61.cs" />
+    <Compile Include="Objective5\Listing_62.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Objective5\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

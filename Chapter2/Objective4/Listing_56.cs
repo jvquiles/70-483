@@ -40,7 +40,7 @@ using System.Collections.Generic;
                 }
             }
 
-            public IEnumerator IEnumerable.GetEnumerator() 
+            IEnumerator IEnumerable.GetEnumerator() 
             {
                 return this.GetEnumerator();
             }
