@@ -139,6 +139,15 @@
     <Compile Include="Objective5\Listing_62.cs" />
     <Compile Include="Objective5\Listing_63.cs" />
     <Compile Include="Objective5\Listing_64.cs" />
+    <Compile Include="Objective5\Listing_65.cs" />
+    <Compile Include="Objective5\Listing_66.cs" />
+    <Compile Include="Objective5\Listing_67.cs" />
+    <Compile Include="Objective5\Listing_68.cs" />
+    <Compile Include="Objective5\Listing_69.cs" />
+    <Compile Include="Objective5\Listing_70.cs" />
+    <Compile Include="Objective5\Listing_71.cs" />
+    <Compile Include="Objective5\Listing_72.cs" />
+    <Compile Include="Objective5\Listing_73.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
