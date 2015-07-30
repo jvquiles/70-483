@@ -154,6 +154,10 @@
     <Compile Include="Objective5\Listing_77.cs" />
     <Compile Include="Objective5\Listing_78.cs" />
     <Compile Include="Objective6\Listing_79.cs" />
+    <Compile Include="Objective6\Listing_80.cs" />
+    <Compile Include="Objective6\Listing_81.cs" />
+    <Compile Include="Objective6\Listing_82.cs" />
+    <Compile Include="Objective6\Listing_83.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
