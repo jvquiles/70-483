@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Chapter1
 {
-    class Class1
-    {
+    public class Class1
+    { 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
